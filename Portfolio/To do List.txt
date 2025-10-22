@@ -1,0 +1,64 @@
+To do List:
+
+CV - Need to find job advert
+Online portfolio:
+	GitHub Page	
+	HomePage
+	Projects
+	Technical + Transferable Skills
+	CV as pdf downloadable
+	Links to Professional Profiles (git)
+Job Advert as PDF
+
+Portfolio Website Plan
+Drag to the right to see other areas
+Need to get colour scheme (coolors colours)
+On click flips cards to reveal the information
+
+
+
+NAV	|			|			1	| 			Tech		|			CV 
+	|Welcome	|Projects	2	|Skills					|Professional Profile	
+	|			|			3	|			Trans		|			GIT
+	|			|			 	|						|	
+
+
+Welcome
+	Career Aspirations
+	
+Projects
+	Use same format as skills section but with 3 different projects
+	Diddy Kong Racing 
+	Zonke
+	Scribble
+	Need description of project, technology used, my role 
+
+Skills
+	Include Examples?
+	Transferable skills 
+		through work/projects (on click -> show different scenarios where i have applied them 
+			using card flipping
+	Technical Skills
+		on click -> flip card link to zee projects in action
+
+
+Professional Profile Next
+	Add  CV + Git link
+	Use same formatting as Skills Section
+	Add mouse hover etc
+
+
+//Finished Professional Profile
+
+
+
+Skills
+	Turn Both of the Skills into cards carousels with using current card templates
+	Add links to videos/projects
+	Provide irl examples of trans skills
+
+Projects
+	Use cards for different projects have them one above the other
+
+Welcome
+	Update about me, career aspirations
