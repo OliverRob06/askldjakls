@@ -110,7 +110,7 @@ body{
     margin-bottom: 10px;
 }
 
-.technical-skills, .transferable-skills{
+.top-right-side, .bottom-right-side{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,14 +121,14 @@ body{
     height: 200px;
 }
 
-.technical-skills{
+.top-right-side{
     background-color: green;
 }
 
-.transferable-skills{
+.bottom-right-side{
     background-color: blue;
 }
-.skills-column{
+.right-column{
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -139,6 +139,7 @@ body{
 }
 
 
+
 .icon{
     background-color: #111;
     padding: 10px;
@@ -146,3 +147,7 @@ body{
     justify-content: center;
     border-radius: 50px;
 }
+
+
+
+
