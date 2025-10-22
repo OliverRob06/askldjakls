@@ -162,6 +162,44 @@ body{
     transition: transform 0.6s;
     position: relative;
     background-color: transparent;
+    position: relative;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.card::after, .card::before{
+    --angle: 0deg;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), transparent, rgb(0, 0, 255));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 1.5px;
+    border-radius: 25px 25px 0 25px;
+    animation: 3s spin linear infinite;
+}
+
+@keyframes spin{
+    from{
+        --angl: 0deg;
+    }
+
+    to{
+        --angle: 360deg;
+    }
+}
+
+.card::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
 }
 
 .image-content{
