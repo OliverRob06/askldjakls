@@ -13,7 +13,7 @@ scrollContainer.addEventListener("wheel", (evt) => {
 const swiper = new Swiper('.slide-content', {
     loop: true,
     spaceBetween: 20,
-    slidesPerView: 3,
+    slidesPerView: 2.5,
 
   
 

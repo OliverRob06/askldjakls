@@ -62,3 +62,14 @@ Projects
 
 Welcome
 	Update about me, career aspirations
+
+
+TODO:
+Update skills page so there is links to examples 
+Add content to project page
+Add content to Welcome page
+Pick colour scheme
+Pick more suitable fonts
+Potential Add pop effect when hovering over cards
+Add typing effect when loading page for first time
+Add effect where the right side of a page loads slightly slower than the left side
