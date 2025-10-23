@@ -1,3 +1,5 @@
+
+//horizontal scroll script
 const scrollContainer = document.querySelector(".horizontal-scroll");
 
 scrollContainer.addEventListener("wheel", (evt) => {
@@ -9,7 +11,7 @@ scrollContainer.addEventListener("wheel", (evt) => {
 });
 
 
-
+//card slider script
 const swiper = new Swiper('.slide-content', {
     loop: true,
     spaceBetween: 20,
@@ -24,3 +26,9 @@ const swiper = new Swiper('.slide-content', {
     },
   });
   
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
