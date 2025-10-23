@@ -381,8 +381,9 @@ body{
 .projects-right-side{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     gap: 20px;
+    margin-top: 60px;
 }
 
 .projects-left-side{
@@ -469,3 +470,40 @@ body{
     gap: 20px;
 }
 
+
+
+/* Front Page*/
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-left {
+    flex: 1;
+    padding-right: 50px;
+}
+
+
+.home-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    gap: 30px;              
+}
+
+
+#home .title h1 {
+    font-size: 90px; 
+    color: #111;
+    margin-bottom: 30px;
+}
+
+#home .title p {
+    font-size: 25px; 
+    line-height: 1.8;
+    color: #333;
+}
