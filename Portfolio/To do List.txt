@@ -65,7 +65,7 @@ Welcome
 
 
 TODO:
-Update skills page so there is links to examples 
+Update skills page so there is links to examples - Done for Technical Skills Will implment flip feature with additional information for transferable skills
 Add content to project page
 Add content to Welcome page
 Pick colour scheme
