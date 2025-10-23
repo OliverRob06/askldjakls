@@ -1,8 +1,16 @@
 <html>
     <head>
         <title> test </title>
+
+
+        <!-- StyleSheet-->
         <link rel = "stylesheet" href = "../CSS/css.css" />
+        <!-- JavaScript-->
         <script src = "../JAVASCRIPT/script.js" defer></script>
+        <!-- Swiper CSS-->
+         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
     </head>
     <body>
 
@@ -60,14 +68,96 @@
                     <p> ergergerger</p>
                 </div>
 
-                <div class = "right-column">
+                <div class = "right-column big" >
                     <div class = "top-right-side">
                         <h2> Technical Skills</h2>
-                            <div class = "languages">
-                                <img src = "../IMAGES/c.png" width = 75 height =75 class = "icon">
-                                <img src = "../IMAGES/java.png" width = 75 height = 75 class = "icon">
-                                <img src = "../IMAGES/python.png" width = 75 height=75 class = "icon">
+
+                        <div class = "slide-container swiper">
+                            <div class = "slide-content">
+                                <div class = "card-wrapper swiper-wrapper">
+                                        <!-- Card -->
+                                        <div class = "card-container swiper-slide">
+                                            <div class = "card ">
+                                                    <div class = "image-content">
+                                                        <span class = "overlay"></span>
+
+                                                        <div class = "card-image">
+                                                            <img src = "../IMAGES/java.png" alt = "logo" class = "card-img"> 
+                                                        </div>
+                                                    </div>
+
+                                                    <div class = "card-content">
+                                                        <h2 class="name">CV</h2>
+
+                                                        <a href="" target="_blank" class="button">View More</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card -->
+                                        <div class = "card-container swiper-slide">
+                                            <div class = "card ">
+                                                    <div class = "image-content">
+                                                        <span class = "overlay"></span>
+
+                                                        <div class = "card-image">
+                                                            <img src = "../IMAGES/c.png" alt = "logo" class = "card-img"> 
+                                                        </div>
+                                                    </div>
+
+                                                    <div class = "card-content">
+                                                        <h2 class="name">CV</h2>
+
+                                                        <a href="" target="_blank" class="button">View More</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card -->
+                                        <div class = "card-container swiper-slide">
+                                            <div class = "card ">
+                                                    <div class = "image-content">
+                                                        <span class = "overlay"></span>
+
+                                                        <div class = "card-image">
+                                                            <img src = "../IMAGES/python.png" alt = "logo" class = "card-img"> 
+                                                        </div>
+                                                    </div>
+
+                                                    <div class = "card-content">
+                                                        <h2 class="name">CV</h2>
+
+                                                        <a href="" target="_blank" class="button">View More</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card -->
+                                        <div class = "card-container swiper-slide">
+                                            <div class = "card ">
+                                                    <div class = "image-content">
+                                                        <span class = "overlay"></span>
+
+                                                        <div class = "card-image">
+                                                            <img src = "../IMAGES/unix.png" alt = "logo" class = "card-img"> 
+                                                        </div>
+                                                    </div>
+
+                                                    <div class = "card-content">
+                                                        <h2 class="name">CV</h2>
+
+                                                        <a href="" target="_blank" class="button">View More</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                </div>
                             </div>
+
+                            
+                        </div>
+
+
+
                     </div>
                     
                     <div class = "bottom-right-side">
@@ -132,6 +222,8 @@
                         </div>
                      </div>
 
+                   
+
                 
                 
                 </div>        
@@ -154,8 +246,15 @@
 
 
 
+        
 
 
 
     </body>
+
+        <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- My JS-->
+    <script src="../JAVASCRIPT/script.js" defer></script>
 </html>

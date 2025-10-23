@@ -7,3 +7,20 @@ scrollContainer.addEventListener("wheel", (evt) => {
         left: evt.deltaY * scrollSpeed
     });
 });
+
+
+
+const swiper = new Swiper('.slide-content', {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 3,
+
+  
+
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  

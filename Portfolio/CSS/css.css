@@ -4,6 +4,9 @@ body{
     
 }
 
+
+/* ================ NAV ==================*/
+
 .nav{
     height: 100vh;
     width: 200px;
@@ -32,6 +35,7 @@ body{
     margin-bottom: 20px;
 }
 
+/* ==================== Scroll System ==========================*/
 
 .horizontal-scroll{
     display: flex;
@@ -64,6 +68,8 @@ body{
 .content h1{
     font-size: 50px;
 }
+
+/* ========== Webpage format ======== */
 
 .title{
     width: 100%;
@@ -123,7 +129,15 @@ body{
 
 .top-right-side{
     background-color: green;
+    height: 100%;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
+
+ 
 
 .bottom-right-side{
     background-color: blue;
@@ -135,7 +149,9 @@ body{
     gap: 50px;
     align-items: flex-start;
     padding: 20px;
-    background-color: orange
+    background-color: orange;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -152,6 +168,12 @@ body{
 #professionalProfile .right-column{
     background-color: transparent;
 }
+
+.icons{
+    width:75px;
+    height:75;
+}
+
 
 /*================= CARD =================*/
 
@@ -189,7 +211,7 @@ body{
 
 @keyframes spin{
     from{
-        --angl: 0deg;
+        --angle: 0deg;
     }
 
     to{
@@ -282,3 +304,58 @@ body{
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+/* =========== Card Slider ================ */
+
+.card-wrapper {
+    gap: 20px;
+    justify-content: center; 
+}
+
+
+.slide-container{
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    max-height: 500px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide-content{
+    margin: 40px;
+}
+
+/* Make cards shrink on small screens */
+@media (max-width: 768px) {
+    .slide-container {
+        padding: 20px 0;
+    }
+    
+    .card {
+        width: 250px; /* smaller cards for mobile */
+        max-height: 350px;
+    }
+    
+    .card-image {
+        height: 120px;
+        width: 120px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
+
